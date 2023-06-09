@@ -11,34 +11,31 @@ html, body {
 }
 
 .scroll-bar-container {
-  /* border: solid black; */
   height: 9%;
   display: flex;
   justify-content: space-between;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin: auto;
 }
 
 .play-zone {
   width: 440px;
-  /* border: solid black; */
   padding-top: 18px;
-  /* margin-top: 15px; */
+  margin: auto;
   text-align: center;
 }
 .scroll-text {
   width: 800px;
-  /* border: solid black; */
   display: flex;
   justify-content: space-between;
   padding-top: 27px;
+  white-space: nowrap;
  
 }
 .account-vip-container {
   width: 440px;
-  /* border: solid black; */
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
+  gap: 10px;
   padding-top: 27px;
 }
 #play {
@@ -54,13 +51,155 @@ html, body {
 .arrow {
   margin-bottom: 15px;
 }
-.account-logo, .vip-logo {
+.vip-logo {
   margin-bottom: 15px;
+  width: 33px;
+  height: 33px;
 }
+
+.account-logo {
+  margin-bottom: 15px;
+  margin-left: 95px;
+  width: 33px;
+  height: 33px;
+}
+
 h3 {
-  margin-right: 100px;
+  text-align: center;
 }
 .navbar-container {
   height: 12%;
   background-color: #ffcf00;
+  display: flex;
+  justify-content: space-between;
+}
+.first-navbar-container {
+  display: flex;
+  justify-content: start;
+  /* gap: 0px; */
+  width: 50%;
+  margin: auto;
+}
+.second-navbar-container {
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+  width: 50%;
+  margin: auto;
+}
+.lego-icon {
+  width: 75px;
+  height: 75px;
+  margin-left: 35px;
+}
+.shop, .discover, .help {
+  margin: auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+.shop:hover {
+  text-decoration: underline;
+}
+.discover:hover {
+  text-decoration: underline;
+}
+.help:hover {
+  text-decoration: underline;
+}
+.search {
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+
+}
+.sign-in {
+  width: 40px;
+  height: 40px;
+  margin-top: 7px;
+
+}
+.bag-icon {
+  width: 25px;
+  height: 25px;
+  margin-top: 12px;
+}
+#count {
+  margin-top: 15px;
+  font-size: 1.2rem;
+}
+.container-3 {
+  /* background-color: #ffdb4b; */
+  height: 480px;
+  display: flex;
+  justify-content: space-between;
+  background-image: url("https://www.lego.com/cdn/cs/set/assets/bltc63fbfb8a4fe47f1/10323-Homepage-202306-SL-Hero-Standard-Large.jpg?fit=crop&format=webply&quality=80&width=1600&height=500&dpr=1.5");
+  background-size: 100%;
+}
+
+.container-3-left {
+  width: 50%;
+}
+.c3-left {
+  width: 100%;
+}
+.container-3-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pac-man {
+  margin-left: 200px;
+  margin-top: 90px;
+}
+.pm {
+  width: 200px;
+  margin-left: 170px;
+}
+#chase {
+  margin-left:300px;
+  margin-top: 26px;
+  margin-bottom: 30px;
+  font-size: 2.6rem;
+}
+#relive {
+  margin-left:151px;
+  margin-bottom: 110px;
+
+}
+#new {
+  margin-left: 200px; 
+  margin-top: -100px;
+}
+.shop-learn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 75px;
+  margin-top: 25px;
+}
+.btn-1 {
+  width: 180px;
+  margin-right: 45px;
+  background-color: #000;
+  color: white;
+  font-size: 22px;
+  border: none;
+}
+.btn-2 {
+  width: 180px;
+  height: 55px;
+  background-color: #000;
+  color: white;
+  font-size: 22px;
+  border: none;
+}
+.btn-1:hover {
+  background-color: #fff;
+  color: black;
+
+}
+.btn-2:hover {
+  background-color: #fff;
+  color: black;
+
 }
